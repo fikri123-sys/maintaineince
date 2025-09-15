@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionHub - Tempat Belanja Baju Terbaik</title>
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <i class="fas fa-tshirt"></i>
+                    FashionHub
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#produk">Produk</a></li>
+                        <li><a href="#kategori">Kategori</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </nav>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">10</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Style Anda, Passion Kami</h1>
+            <p>Temukan koleksi baju terbaru dengan kualitas terbaik dan harga terjangkau</p>
+            <a href="#" class="btn">Belanja Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container" id="produk">
+            <h2 class="section-title">Koleksi Terbaru</h2>
+            <div class="categories">
+                <button class="category-btn active" data-category="all">Semua</button>
+                <button class="category-btn" data-category="wanita">Wanita</button>
+                <button class="category-btn" data-category="pria">Pria</button>
+                <button class="category-btn" data-category="anak">Anak</button>
+            </div>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="wanita">
+                    <img src="https://images.unsplash.com/photo-1525299374597-911581e1bdef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Baju Wanita" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Blouse Floral</h3>
+                        <p class="product-price">Rp 249.000</p>
+                        <button class="add-to-cart">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="pria">
+                    <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Baju Pria" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Kemeja Casual</h3>
+                        <p class="product-price">Rp 299.000</p>
+                        <button class="add-to-cart">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="anak">
+                    <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Baju Anak" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Dress Anak</h3>
+                        <p class="product-price">Rp 179.000</p>
+                        <button class="add-to-cart">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="wanita">
+                    <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Baju Wanita" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Dress Evening</h3>
+                        <p class="product-price">Rp 459.000</p>
+                        <button class="add-to-cart">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card" data-category="pria">
+                    <img src="https://images.unsplash.com/photo-1615450788826-ea6f073a48f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Baju Pria" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Jaket Hoodie</h3>
+                        <p class="product-price">Rp 399.000</p>
+                        <button class="add-to-cart">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card" data-category="anak">
+                    <img src="https://images.unsplash.com/photo-1519457431-44ccd64a579b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80" alt="Baju Anak" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Setelan Anak</h3>
+                        <p class="product-price">Rp 229.000</p>
+                        <button class="add-to-cart">Tambah ke Keranjang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container" id="kategori">
+            <h2 class="section-title">Mengapa Berbelanja di FashionHub?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Pengiriman Cepat</h3>
+                    <p>Pengiriman ke seluruh Indonesia dengan cepat dan aman</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Kualitas Terjamin</h3>
+                    <p>Produk dengan kualitas terbaik dan bahan premium</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-undo"></i>
+                    <h3>Pengembalian Mudah</h3>
+                    <p>Garansi 30 hari pengembalian jika tidak sesuai</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>Layanan Pelanggan</h3>
+                    <p>Customer service siap membantu 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container" id="tentang">
+            <h2 class="section-title">Apa Kata Pelanggan Kami?</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p class="testimonial-text">"Kualitas produknya sangat bagus, harganya juga terjangkau. Pengiriman cepat dan packing rapi."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Customer" class="author-img">
+                        <div>
+                            <p class="author-name">Diana Putri</p>
+                            <p>Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Saya sudah langganan belanja di FashionHub. Modelnya selalu update dan kualitasnya konsisten bagus."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer" class="author-img">
+                        <div>
+                            <p class="author-name">Budi Santoso</p>
+                            <p>Bandung</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Pelayanannya ramah dan responsif. Baju yang saya beli pas di badan dan bahannya nyaman dipakai."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Customer" class="author-img">
+                        <div>
+                            <p class="author-name">Rina Wijaya</p>
+                            <p>Surabaya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>FashionHub</h3>
+                    <p>Toko baju online dengan koleksi terbaru dan tren fashion terkini untuk wanita, pria, dan anak.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Kategori</h3>
+                    <ul>
+                        <li><a href="#">Baju Wanita</a></li>
+                        <li><a href="#">Baju Pria</a></li>
+                        <li><a href="#">Baju Anak</a></li>
+                        <li><a href="#">Aksesoris</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Informasi</h3>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Hubungi Kami</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. Fashion No. 123, Jakarta</li>
+                        <li><i class="fas fa-phone"></i> +62 21 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@fashionhub.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 FashionHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript untuk fitur filter kategori dan keranjang belanja
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filter kategori
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const productCards = document.querySelectorAll('.product-card');
+            
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Hapus class active dari semua tombol
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Tambah class active ke tombol yang diklik
+                    button.classList.add('active');
+                    
+                    const category = button.getAttribute('data-category');
+                    
+                    // Tampilkan/sembunyikan produk berdasarkan kategori
+                    productCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Keranjang belanja
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            const cartCount = document.querySelector('.cart-count');
+            let count = 0;
+            
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    count++;
+                    cartCount.textContent = count;
+                    
+                    // Animasi tambah ke keranjang
+                    button.textContent = 'Ditambahkan ✓';
+                    button.style.backgroundColor = '#4CAF50';
+                    
+                    setTimeout(() => {
+                        button.textContent = 'Tambah ke Keranjang';
+                        button.style.backgroundColor = '#333';
+                    }, 2000);
+                });
+            });
+            
+            // Animasi scroll
+            const scrollElements = document.querySelectorAll('.product-card, .feature, .testimonial');
+            
+            const elementInView = (el, dividend = 1) => {
+                const elementTop = el.getBoundingClientRect().top;
+                return (
+                    elementTop <= (window.innerHeight || document.documentElement.clientHeight) / dividend
+                );
+            };
+            
+            const displayScrollElement = (element) => {
+                element.style.opacity = "1";
+                element.style.transform = "translateY(0)";
+            };
+            
+            const hideScrollElement = (element) => {
+                element.style.opacity = "0";
+                element.style.transform = "translateY(20px)";
+            };
+            
+            const handleScrollAnimation = () => {
+                scrollElements.forEach((el) => {
+                    if (elementInView(el, 1.2)) {
+                        displayScrollElement(el);
+                    }
+                });
+            };
+            
+            // Set initial state
+            scrollElements.forEach(el => {
+                el.style.opacity = "0";
+                el.style.transform = "translateY(20px)";
+                el.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+            });
+            
+            window.addEventListener('scroll', () => {
+                handleScrollAnimation();
+            });
+            
+            // Trigger once on load
+            handleScrollAnimation();
+        });
+    </script>
+</body>
+</html>
